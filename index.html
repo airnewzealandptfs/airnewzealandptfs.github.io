@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#07111b" />
+    <meta
+      name="description"
+      content="Fly Aotearoa and beyond with Air New Zealand PTFS, a community airline in Project Flight."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://airnewzealandptfs.github.io/" />
+    <meta property="og:title" content="Air New Zealand PTFS" />
+    <meta
+      property="og:description"
+      content="A community airline bringing the spirit of Aotearoa to Project Flight."
+    />
+    <link rel="canonical" href="https://airnewzealandptfs.github.io/" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Air New Zealand PTFS — Fly Aotearoa</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Air New Zealand PTFS home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 40 40" fill="none">
+            <path d="M20 3.5c-1.6 6.1-9 10.1-9 17.4A9 9 0 0 0 20 30c5 0 9-4 9-9.1C29 13.6 21.6 9.6 20 3.5Z" />
+            <path d="M14.2 23.2c2.1 1.7 5.1 1.9 7.8.5 2-1 3.2-2.7 3.7-4.9M16 17.8c1.7 1.5 4.3 1.9 6.6.9" />
+          </svg>
+        </span>
+        <span class="brand-type">
+          <strong>AIR NEW ZEALAND</strong>
+          <small>PROJECT FLIGHT · COMMUNITY</small>
+        </span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#experience">The experience</a>
+        <a href="#fleet">Our fleet</a>
+        <a href="#about">About us</a>
+      </nav>
+
+      <a class="header-cta" href="https://github.com/airnewzealandptfs" target="_blank" rel="noreferrer">
+        <span>Visit our GitHub</span>
+        <span aria-hidden="true">↗</span>
+      </a>
+
+      <details class="mobile-nav">
+        <summary aria-label="Open navigation menu"><span></span><span></span></summary>
+        <nav aria-label="Mobile navigation">
+          <a href="#experience">The experience</a>
+          <a href="#fleet">Our fleet</a>
+          <a href="#about">About us</a>
+          <a href="https://github.com/airnewzealandptfs" target="_blank" rel="noreferrer">Visit our GitHub ↗</a>
+        </nav>
+      </details>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="status-dot"></span> A community airline in Project Flight</div>
+          <h1 id="hero-title">Aotearoa,<br />from <em>above.</em></h1>
+          <p>
+            Find your flight path with Air New Zealand PTFS. Explore the islands,
+            take to the skies, and share the journey with our community.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#experience">Discover the experience <span aria-hidden="true">↓</span></a>
+            <a class="button button-quiet" href="https://github.com/airnewzealandptfs" target="_blank" rel="noreferrer">
+              Explore our GitHub <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+          <div class="hero-footnote">
+            <span class="footnote-rule"></span>
+            <span>New Zealand skies. Your next great flight.</span>
+          </div>
+        </div>
+
+        <div class="hero-art" aria-label="Illustrated flight path across New Zealand">
+          <div class="art-topline">
+            <span>FLIGHT DECK</span>
+            <span>NZ · SOUTH PACIFIC</span>
+          </div>
+          <svg class="route-map" viewBox="0 0 640 480" role="img" aria-labelledby="map-title map-desc">
+            <title id="map-title">A flight path across Aotearoa</title>
+            <desc id="map-desc">An illustrated route arcs between the North and South Islands of New Zealand.</desc>
+            <defs>
+              <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+                <path d="M36 0H0V36" fill="none" stroke="white" stroke-opacity=".055" />
+              </pattern>
+              <linearGradient id="island" x1="0" x2="1" y1="0" y2="1">
+                <stop offset="0" stop-color="#b5e7db" />
+                <stop offset="1" stop-color="#558e87" />
+              </linearGradient>
+              <linearGradient id="route" x1="0" x2="1">
+                <stop stop-color="#d5f3e8" />
+                <stop offset="1" stop-color="#9bd9cb" />
+              </linearGradient>
+            </defs>
+            <rect width="640" height="480" fill="url(#grid)" />
+            <circle cx="322" cy="235" r="177" fill="none" stroke="white" stroke-opacity=".07" />
+            <circle cx="322" cy="235" r="126" fill="none" stroke="white" stroke-opacity=".055" />
+            <path class="island north-island" d="M335 75c17-17 26-10 35 1 11 14 29 18 26 33-2 12-15 17-11 30 3 12 23 14 22 28-1 13-18 17-23 27-6 13-1 29-11 37-10 8-24-2-36 3-13 6-16 23-29 24-12 1-19-13-30-14-12-1-23 14-34 7-11-8-4-24-9-36-6-12-23-18-20-32 3-12 19-17 20-30 2-14-14-28-6-40 7-11 24-8 36-12 14-5 23-22 37-19 13 3 18 21 32 19 9-1 14-14 21-26Z" fill="url(#island)" />
+            <path class="island south-island" d="M251 264c17-8 32-1 40 10 8 12 1 24 6 36 6 12 22 17 20 31-2 12-17 18-21 31-4 12 5 28-4 37-9 8-24 0-35 6-12 7-15 23-28 25-13 1-21-14-33-18-12-4-29 1-37-10-8-12 5-27 4-40-1-14-16-26-10-39 6-12 25-12 34-22 10-10 10-31 24-36 12-4 23 6 40 0Z" fill="url(#island)" />
+            <path d="M363 113C441 105 458 166 410 196 386 211 353 209 327 228 300 247 293 278 274 307" fill="none" stroke="url(#route)" stroke-width="2.5" stroke-dasharray="6 8" />
+            <circle cx="363" cy="113" r="6" fill="#e1fff6" />
+            <circle cx="274" cy="307" r="6" fill="#e1fff6" />
+            <circle cx="363" cy="113" r="13" fill="none" stroke="#d7f5eb" stroke-opacity=".38" />
+            <circle cx="274" cy="307" r="13" fill="none" stroke="#d7f5eb" stroke-opacity=".38" />
+            <g class="map-plane" transform="translate(378 204) rotate(58)">
+              <path d="M0-20 4-2l14 7v4L4 6 2 17l-2 2-2-2-2-11-14 3V5l14-7 4-18Z" fill="#f3fff9" />
+            </g>
+            <text x="383" y="91" fill="#f3fff9">AUCKLAND</text>
+            <text x="288" y="337" fill="#f3fff9">WELLINGTON</text>
+            <text class="map-coordinate" x="30" y="439" fill="#d2e6df">36°50′S 174°45′E</text>
+            <text class="map-coordinate" x="492" y="439" fill="#d2e6df">FLIGHT PATH 001</text>
+          </svg>
+          <div class="art-caption">
+            <span class="caption-icon" aria-hidden="true">✦</span>
+            <span><strong>THE LAND OF THE LONG WHITE CLOUD</strong><small>There’s a whole world down there.</small></span>
+          </div>
+        </div>
+        <div class="hero-index" aria-hidden="true">01 / 03</div>
+      </section>
+
+      <section class="experience section-pad" id="experience" aria-labelledby="experience-title">
+        <div class="section-intro">
+          <span class="eyebrow">01 — THE EXPERIENCE</span>
+          <h2 id="experience-title">More than a destination.<br /><em>It’s the journey.</em></h2>
+        </div>
+        <div class="experience-content">
+          <p class="section-lead">
+            From a smooth takeoff to that first glimpse of the coast, every flight
+            is a chance to see Aotearoa a little differently.
+          </p>
+          <div class="experience-grid">
+            <article class="experience-card">
+              <span class="card-number">01</span>
+              <span class="card-icon" aria-hidden="true">↗</span>
+              <h3>Take the controls</h3>
+              <p>Set your course and discover the skies of Project Flight at your own pace.</p>
+            </article>
+            <article class="experience-card">
+              <span class="card-number">02</span>
+              <span class="card-icon" aria-hidden="true">⌁</span>
+              <h3>See New Zealand</h3>
+              <p>Fly over dramatic coastlines, green valleys, and the places in between.</p>
+            </article>
+            <article class="experience-card">
+              <span class="card-number">03</span>
+              <span class="card-icon" aria-hidden="true">✳</span>
+              <h3>Fly together</h3>
+              <p>Share the skies with fellow aviation fans and make every flight your own.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="fleet-section section-pad" id="fleet" aria-labelledby="fleet-title">
+        <div class="fleet-heading">
+          <div>
+            <span class="eyebrow">02 — THE FLEET</span>
+            <h2 id="fleet-title">Ready for <em>departure.</em></h2>
+          </div>
+          <p>A few familiar silhouettes for your next virtual flight.</p>
+        </div>
+        <div class="fleet-grid">
+          <article class="fleet-card fleet-card-wide">
+            <div class="aircraft-art" aria-hidden="true">
+              <svg viewBox="0 0 540 190" fill="none">
+                <path d="M24 99 230 86l74-66c8-7 18-10 28-9l10 1-37 74 105-7 54-34c8-5 18-7 27-5l13 3-37 47 37 10-2 7-55-3-39 32c-8 7-19 10-30 9l-13-1 26-42-97-5-67 57-26-1 38-59-209-4-17-10Z" fill="currentColor" />
+                <path d="m160 95 36-5 42 13-8 7-47-5-23-10Z" fill="#b9ece1" opacity=".8" />
+                <path d="m82 91 19-2 20 6-5 4-26-2-8-6Z" fill="#b9ece1" opacity=".8" />
+              </svg>
+            </div>
+            <div class="fleet-card-info">
+              <span class="fleet-type">WIDE-BODY · LONG HAUL</span>
+              <h3>Boeing 787-9</h3>
+              <p>Made for the long way around.</p>
+            </div>
+            <span class="fleet-card-index">01</span>
+          </article>
+          <article class="fleet-card">
+            <div class="aircraft-art aircraft-art-small" aria-hidden="true">
+              <svg viewBox="0 0 540 190" fill="none">
+                <path d="M24 99 230 86l74-66c8-7 18-10 28-9l10 1-37 74 105-7 54-34c8-5 18-7 27-5l13 3-37 47 37 10-2 7-55-3-39 32c-8 7-19 10-30 9l-13-1 26-42-97-5-67 57-26-1 38-59-209-4-17-10Z" fill="currentColor" />
+                <path d="m160 95 36-5 42 13-8 7-47-5-23-10Z" fill="#b9ece1" opacity=".8" />
+                <path d="m82 91 19-2 20 6-5 4-26-2-8-6Z" fill="#b9ece1" opacity=".8" />
+              </svg>
+            </div>
+            <div class="fleet-card-info">
+              <span class="fleet-type">SINGLE AISLE · SHORT HAUL</span>
+              <h3>Airbus A320</h3>
+              <p>Your island-hopping companion.</p>
+            </div>
+            <span class="fleet-card-index">02</span>
+          </article>
+          <article class="fleet-card">
+            <div class="aircraft-art aircraft-art-small" aria-hidden="true">
+              <svg viewBox="0 0 540 190" fill="none">
+                <path d="M24 99 230 86l74-66c8-7 18-10 28-9l10 1-37 74 105-7 54-34c8-5 18-7 27-5l13 3-37 47 37 10-2 7-55-3-39 32c-8 7-19 10-30 9l-13-1 26-42-97-5-67 57-26-1 38-59-209-4-17-10Z" fill="currentColor" />
+                <path d="m160 95 36-5 42 13-8 7-47-5-23-10Z" fill="#b9ece1" opacity=".8" />
+                <path d="m82 91 19-2 20 6-5 4-26-2-8-6Z" fill="#b9ece1" opacity=".8" />
+              </svg>
+            </div>
+            <div class="fleet-card-info">
+              <span class="fleet-type">WIDE-BODY · LONG HAUL</span>
+              <h3>Boeing 777-300ER</h3>
+              <p>A classic for the open skies.</p>
+            </div>
+            <span class="fleet-card-index">03</span>
+          </article>
+        </div>
+        <p class="fleet-note"><span aria-hidden="true">✳</span> Aircraft shown as part of our community’s PTFS fleet showcase.</p>
+      </section>
+
+      <section class="about-section section-pad" id="about" aria-labelledby="about-title">
+        <div class="about-mark" aria-hidden="true">
+          <svg viewBox="0 0 180 180" fill="none">
+            <circle cx="90" cy="90" r="88" stroke="currentColor" stroke-opacity=".2" />
+            <path d="M90 36c-8 30-42 45-42 77a42 42 0 1 0 84 0c0-32-34-47-42-77Z" stroke="currentColor" stroke-width="3" />
+            <path d="M62 112c11 9 27 10 41 2 9-5 15-13 18-24M70 87c9 8 21 10 33 4" stroke="currentColor" stroke-width="3" stroke-linecap="round" />
+          </svg>
+          <span>FIND YOUR<br />FLIGHT PATH</span>
+        </div>
+        <div class="about-copy">
+          <span class="eyebrow">03 — ABOUT THE AIRLINE</span>
+          <h2 id="about-title">A little piece of<br /><em>Aotearoa in the sky.</em></h2>
+          <p>
+            Air New Zealand PTFS is a community project for people who love
+            aviation and the freedom of flight. We bring the feeling of New
+            Zealand’s skies into Project Flight—one takeoff at a time.
+          </p>
+          <a class="text-link" href="https://github.com/airnewzealandptfs" target="_blank" rel="noreferrer">
+            Get to know the community <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+        <div class="about-aside">
+          <span class="aside-rule"></span>
+          <p><strong>OUR HOME</strong><br />Aotearoa · New Zealand</p>
+          <p><strong>OUR WORLD</strong><br />Project Flight Simulator</p>
+          <p><strong>OUR CREW</strong><br />A community of aviation fans</p>
+        </div>
+      </section>
+
+      <section class="final-callout" aria-label="Join the journey">
+        <span class="eyebrow">YOUR NEXT FLIGHT IS WAITING</span>
+        <h2>Meet us <em>up there.</em></h2>
+        <p>Follow the project and see what we’re building together.</p>
+        <a class="button button-light" href="https://github.com/airnewzealandptfs" target="_blank" rel="noreferrer">
+          Visit Air New Zealand PTFS on GitHub <span aria-hidden="true">↗</span>
+        </a>
+        <span class="callout-coordinate" aria-hidden="true">36°50′S &nbsp; 174°45′E</span>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="footer-brand" href="#home">AIR NEW ZEALAND <span>PTFS</span></a>
+      <p>An independent community project. Not affiliated with Air New Zealand, Roblox, or the creators of Project Flight.</p>
+      <a class="back-to-top" href="#home">Back to top ↑</a>
+      <small>© 2026 Air New Zealand PTFS Community</small>
+    </footer>
+  </body>
+</html>
