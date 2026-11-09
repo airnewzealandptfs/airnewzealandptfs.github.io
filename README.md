@@ -2,6 +2,8 @@
 
 An independent community landing page for Air New Zealand PTFS, a fan community in Project Flight. The static site is designed for the organization website at <https://airnewzealandptfs.github.io/>.
 
+The homepage uses `ptfs-air-new-zealand.jpg`, a community-provided Project Flight screenshot, as its hero background.
+
 ## Run locally
 
 Open `index.html` in a browser, or start a local server with Python:
